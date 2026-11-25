@@ -1,0 +1,43 @@
+# Flutter / Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+build/
+coverage/
+
+# IDE and local Android configuration
+*.iml
+.idea/
+.vscode/
+android/.gradle/
+android/local.properties
+
+# Secrets and local runtime data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+android/key.properties
+*.jks
+*.keystore
+
+# Additional Flutter generated files
+.flutter-plugins-dependencies
+.packages
+.pub/
+**/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/.last_build_id
+ios/Pods/
+macos/Pods/
+.vscode/
+
+# Generated platform plugin registrants
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugins.cmake
